@@ -1,7 +1,7 @@
 {
   "name": "design-studio",
   "version": "1.0.0",
-  "description": "",
+  "description": "デザイン工房-デザイナ向け開発環境-",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -19,8 +19,8 @@
     "url": "git+https://ucan-lab@github.com/ucan-lab/design-studio.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ucan-lab",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ucan-lab/design-studio/issues"
   },
