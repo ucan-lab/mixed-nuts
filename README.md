@@ -94,6 +94,8 @@ lodashとは、JavaScriptのための便利なメソッドが詰まったライ�
 
 ### axios
 
+- [https://github.com/axios/axios](https://github.com/axios/axios)
+
 axiosとは、ブラウザや node.js で動く Promise ベースのHTTPクライアントです。
 
 ### Sass(Scss)
