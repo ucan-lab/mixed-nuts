@@ -9,13 +9,15 @@
 ## 要件
 
 - Git
-- Nodejs
+- Nodejs(npm)
 
 ```
 $ git --version
 git version 2.15.1
 $ node -v
 v8.6.0
+$ npm -v
+5.6.0
 ```
 
 バージョンに差異があっても構わないです。
