@@ -77,7 +77,7 @@ Opening https://app.netlify.com/authorize?response_type=ticket&ticket=bc1146314f
 Deploying folder: public
 ```
 
-初回デプロイ時は認証確認とサイト設定が行われます。
+初回デプロイ時はユーザー登録＆認証確認とサイト設定を行います。
 詳細なサイト設定は [netlify公式ドキュメント](https://www.netlify.com/docs) を参照ください。
 
 ## 補足
