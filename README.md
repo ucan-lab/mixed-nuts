@@ -53,7 +53,7 @@ $ npm run gulp
 ## 最適化
 
 ```
-$ npm run production
+$ npm run prod
 ```
 
 css, javascriptファイルが最適化されます。
@@ -63,18 +63,10 @@ css, javascriptファイルが最適化されます。
 高機能ホスティングサービス [Netlify](https://www.netlify.com) を使って簡単にデプロイ＆公開できます。
 
 ```
-$ npm install netlify-cli -g;
-```
+$ npm run dep
 
-netlifyのコマンドが使えるようにnpmでインストールします。
-
-```
-$ npm run production
-$ netlify deploy
-Opening https://app.netlify.com/authorize?response_type=ticket&ticket=bc1146314f062369f242ee22c6ad3894
-? No site id specified, create a new site Yes
-? Path to deploy? (current dir) public
-Deploying folder: public
+? No site id specified, create a new site: Yes
+? Path to deploy? (current dir): public
 ```
 
 初回デプロイ時はユーザー登録＆認証確認とサイト設定を行います。
