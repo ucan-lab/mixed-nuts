@@ -58,6 +58,28 @@ $ npm run production
 
 css, javascriptファイルが最適化されます。
 
+## デプロイ
+
+高機能ホスティングサービス [Netlify](https://www.netlify.com) を使って簡単にデプロイ＆公開できます。
+
+```
+$ npm install netlify-cli -g;
+```
+
+netlifyのコマンドが使えるようにnpmでインストールします。
+
+```
+$ npm run production
+$ netlify deploy
+Opening https://app.netlify.com/authorize?response_type=ticket&ticket=bc1146314f062369f242ee22c6ad3894
+? No site id specified, create a new site Yes
+? Path to deploy? (current dir) public
+Deploying folder: public
+```
+
+初回デプロイ時は認証確認とサイト設定が行われます。
+詳細なサイト設定は [netlify公式ドキュメント](https://www.netlify.com/docs) を参照ください。
+
 ## 補足
 
 ### Bootstrap3
