@@ -4,7 +4,7 @@
 テンプレートエンジン「EJS」、CSSメタ言語「Scss」で低コストかつ保守的なコーディング
 自動ビルド＆自動リロードによる快適かつ爆速なコーディング環境で開発できます。
 
-また、Laravel Mixがベースとなっているため Bootstrap3/Font Awesome/Vue.js/Jquery/lodash/axios などの便利なライブラリをそのまま利用可能です。
+Laravel Mixがベースで Bootstrap3/Font Awesome/Vue.js/Jquery/lodash/axios などの便利なライブラリを利用できます。
 
 ## 要件
 
@@ -58,7 +58,7 @@ $ npm run prod
 
 css, javascriptファイルが最適化されます。
 
-## デプロイ
+## 手動デプロイ
 
 高機能ホスティングサービス [Netlify](https://www.netlify.com) を使って簡単にデプロイ＆公開できます。
 
@@ -69,7 +69,7 @@ $ npm run dep
 ? Path to deploy? (current dir): public
 ```
 
-初回デプロイ時はユーザー登録＆認証確認とサイト設定を行います。
+初回デプロイ実行時はユーザー登録＆認証確認、サイト作成＆公開ディレクトリ設定が行われます。
 詳細なサイト設定は [netlify公式ドキュメント](https://www.netlify.com/docs) を参照ください。
 
 ## 補足

@@ -41,9 +41,7 @@
     "jquery": "^3.2",
     "laravel-mix": "^1.0",
     "lodash": "^4.17.4",
+    "netlify-cli": "^1.2.2",
     "vue": "^2.5.7"
-  },
-  "dependencies": {
-    "netlify-cli": "^1.2.2"
   }
 }
