@@ -16,7 +16,7 @@
     "netlify": "netlify",
     "dep": "npm run production; netlify deploy",
     "deploy": "netlify deploy"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://ucan-lab@github.com/ucan-lab/design-studio.git"
@@ -36,6 +36,7 @@
     "gulp": "^3.9.1",
     "gulp-cached": "^1.1.1",
     "gulp-ejs": "^3.1.1",
+    "gulp-html-beautify": "^1.0.1",
     "gulp-notify": "^3.1.0",
     "gulp-plumber": "^1.1.0",
     "jquery": "^3.2",

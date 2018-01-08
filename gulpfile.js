@@ -5,6 +5,7 @@ const notify = require('gulp-notify');
 const cache = require('gulp-cached');
 const ejs = require("gulp-ejs");
 const gutil = require('gulp-util');
+const htmlbeautify = require('gulp-html-beautify');
 const reload = browserSync.reload;
 
 gulp.task('browser-sync', function () {
@@ -24,6 +25,7 @@ gulp.task('ejs', function () {
             errorHandler: notify.onError("Error: <%= error.message %>")
         }))
         .pipe(ejs({}, { "root": "./resources/views" }, { "ext": ".html" }).on('error', gutil.log))
+        .pipe(htmlbeautify())
         .pipe(gulp.dest("./public"))
 });
 
