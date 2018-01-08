@@ -1,26 +1,24 @@
 # デザイン工房-ウェブデザイナ向け開発環境-
 
-デザイン工房はウェブデザイナが効率よくHTMLを書くための開発環境です。
-テンプレートエンジン「EJS」、CSSメタ言語「Scss」で低コストかつ保守的なコーディング
-自動ビルド＆自動リロードによる快適かつ爆速なコーディング環境で開発できます。
+デザイン工房はウェブデザイナがHTMLやCSSを効率よく書くための開発環境です。
 
-Laravel Mixがベースで Bootstrap3/Font Awesome/Vue.js/Jquery/lodash/axios などの便利なライブラリを利用できます。
+## ポイント
+
+- HTMLテンプレートエンジンは [EJS](http://ejs.co) を採用
+  - 素のHTMLもそのまま記述可能
+- CSSメタ言語は [Sass(Scss記法)](http://sass-lang.com) を採用
+  - 素のCSSもそのまま記述可能
+- 自動ビルド＆自動ブラウザリロードによる快適かつ爆速なコーディング環境を提供
+- Laravel Mixをベースに Bootstrap3/Font Awesome/Vue.js/Jquery/lodash などの便利なライブラリを利用可能
+- [Netlify](https://www.netlify.com) でデプロイをお手軽に
 
 ## 要件
 
-- Git
-- Nodejs(npm)
-
-```
-$ git --version
-git version 2.15.1
-$ node -v
-v8.6.0
-$ npm -v
-5.6.0
-```
-
-バージョンに差異があっても構わないです。
+- [Git](https://git-scm.com)
+- [Nodejs(npm)](https://nodejs.org/ja)
+- [Netlifyアカウント](https://www.netlify.com)
+  - 無料で使える高機能ホスティングサービス
+  - GitHubアカウントがあれば連携可能
 
 ## 開発環境構築
 
@@ -44,13 +42,19 @@ $ git commit -m "first commit"
 ## ビルド
 
 ```
+$ npm run dev
+```
+
+## ビルド(監視モード)
+
+```
 $ npm run watch
 $ npm run gulp
 ```
 
 それぞれ別窓でコマンドを実行してください。
 
-## 最適化
+## ビルド(最適化)
 
 ```
 $ npm run prod
@@ -58,7 +62,7 @@ $ npm run prod
 
 css, javascriptファイルが最適化されます。
 
-## 手動デプロイ
+## デプロイ(手動)
 
 高機能ホスティングサービス [Netlify](https://www.netlify.com) を使って簡単にデプロイ＆公開できます。
 
@@ -69,7 +73,8 @@ $ npm run dep
 ? Path to deploy? (current dir): public
 ```
 
-初回デプロイ実行時はユーザー登録＆認証確認、サイト作成＆公開ディレクトリ設定が行われます。
+初回デプロイ実行時はユーザー登録＆認証確認、サイト作成＆公開ディレクトリ設定が行われます。<br>
+基本的に無料で使用できます。また有料になりますがアクセスコントロールでパスワード制限をかけることも可能です。<br>
 詳細なサイト設定は [netlify公式ドキュメント](https://www.netlify.com/docs) を参照ください。
 
 ## 補足

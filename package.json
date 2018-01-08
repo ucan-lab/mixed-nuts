@@ -1,7 +1,7 @@
 {
   "name": "design-studio",
   "version": "1.0.0",
-  "description": "デザイン工房-デザイナ向け開発環境-",
+  "description": "デザイン工房-ウェブデザイナ向け開発環境-",
   "main": "index.js",
   "private": true,
   "scripts": {
