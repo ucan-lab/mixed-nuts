@@ -1,0 +1,42 @@
+// 中央コンテント
+.holy-grail-center {
+    flex: 1;
+    padding: 0 10px;
+    background-color: khaki;
+}
+
+// サイドバー
+.holy-grail-left, .holy-grail-right {
+    flex: 0 0 12em;
+    padding: 0 10px;
+}
+
+// 左サイドバー
+.holy-grail-left {
+    order: -1;
+    background-color: skyblue;
+}
+
+// 右サイドバー
+.holy-grail-right {
+    background-color: indianred;
+}
+
+// 聖杯レイアウト
+body, main {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+        flex: 1;
+    }
+    .holy-grail-center {
+        flex: 1;
+    }
+    .holy-grail-left, .holy-grail-right {
+        flex: 0 0 12em;
+    }
+}
