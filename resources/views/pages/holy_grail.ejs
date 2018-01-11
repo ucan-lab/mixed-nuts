@@ -1,16 +1,20 @@
 <%- include('/layouts/_config') -%>
 <% config.meta.title = 'holy-grail' %>
-<% config.body.class = '' %>
 <%- include('/layouts/_header') -%>
 
-<article class="holy-grail-center">
-    <h2>聖杯レイアウト</h2>
-</article>
-<nav class="holy-grail-left">
-    <h3>左サイドバー</h3>
-</nav>
-<aside class="holy-grail-right">
-    <h3>右サイドバー</h3>
-</aside>
+<div id="holy-grail">
+    <nav class="left">
+        <h3>左サイドバー</h3>
+    </nav>
+    <article class="center">
+        <h2>聖杯レイアウト</h2>
+        <% for (var i = 0; i < 15; i++) { %>
+            <p>sample <%= i %></p>
+        <% } %>
+    </article>
+    <aside class="right">
+        <h3>右サイドバー</h3>
+    </aside>
+</div>
 
 <%- include('/layouts/_footer') -%>

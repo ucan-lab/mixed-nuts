@@ -1,42 +1,40 @@
-// 中央コンテント
-.holy-grail-center {
-    flex: 1;
-    padding: 0 10px;
-    background-color: khaki;
-}
-
-// サイドバー
-.holy-grail-left, .holy-grail-right {
-    flex: 0 0 12em;
-    padding: 0 10px;
-}
-
-// 左サイドバー
-.holy-grail-left {
-    order: -1;
-    background-color: skyblue;
-}
-
-// 右サイドバー
-.holy-grail-right {
-    background-color: indianred;
-}
-
-// 聖杯レイアウト
-body, main {
+#holy-grail {
     display: flex;
-    flex-direction: column;
+
+    .left {
+        flex: 0 180px;
+        background: tomato;
+        padding: 0 10px;
+    }
+
+    .center {
+        flex: 1;
+        background: skyblue;
+        padding: 0 10px;
+    }
+
+    .right {
+        flex: 0 180px;
+        background: pink;
+        padding: 0 10px;
+    }
 }
 
-@media (min-width: 768px) {
-    main {
-        flex-direction: row;
-        flex: 1;
-    }
-    .holy-grail-center {
-        flex: 1;
-    }
-    .holy-grail-left, .holy-grail-right {
-        flex: 0 0 12em;
+@media all and (max-width: 500px) {
+    #holy-grail {
+        flex-direction: column;
+
+        .center {
+            order: 1;
+            flex: 100%;
+        }
+        .left {
+            order: 2;
+            flex: 100%;
+        }
+        .right {
+            order: 3;
+            flex: 100%;
+        }
     }
 }
