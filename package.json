@@ -41,7 +41,7 @@
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.0",
     "jquery": "^3.3.1",
-    "laravel-mix": "^1.0",
+    "laravel-mix": "^2.0",
     "laravel-mix-purgecss": "^1.0.5",
     "lodash": "^4.17.4",
     "netlify-cli": "^1.2.2",
