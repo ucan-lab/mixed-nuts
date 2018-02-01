@@ -42,6 +42,7 @@
     "gulp-plumber": "^1.1.0",
     "jquery": "^3.2",
     "laravel-mix": "^1.0",
+    "laravel-mix-purgecss": "^1.0.5",
     "lodash": "^4.17.4",
     "netlify-cli": "^1.2.2",
     "rimraf": "^2.6.2",
