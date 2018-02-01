@@ -10,6 +10,7 @@
   - 素のCSSもそのまま記述可能
 - 自動ビルド＆自動ブラウザリロードによる快適かつ爆速なコーディング環境を提供
 - Laravel Mixをベースに Bootstrap3/Font Awesome/Vue.js/Jquery/lodash などの便利なライブラリを利用可能
+- [Laravel Mix Purgecss](https://github.com/spatie/laravel-mix-purgecss) により未使用のCSSを除去し、より小さいCSSファイルをリリース
 - [Netlify](https://www.netlify.com) でデプロイをお手軽に
 
 ## 要件

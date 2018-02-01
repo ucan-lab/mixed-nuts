@@ -1,4 +1,5 @@
 let mix = require('laravel-mix');
+require('laravel-mix-purgecss');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,6 +13,10 @@ let mix = require('laravel-mix');
  */
 
 mix.setPublicPath('public')
-   .js('resources/assets/js/app.js', 'js')
-   .sass('resources/assets/sass/app.scss', 'css')
-   .copyDirectory('resources/assets/images', 'public/images');
+  .js('resources/assets/js/app.js', 'js')
+  .sass('resources/assets/sass/app.scss', 'css')
+  .purgeCss({
+    enabled: true,
+    extensions: ['html', 'js', 'php', 'ejs']
+  })
+  .copyDirectory('resources/assets/images', 'public/images');
