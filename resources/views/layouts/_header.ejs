@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="/images/favicon.ico">
     <title><%= config.meta.title %></title>
     <meta name="description" content="<%= config.meta.title %>">
-    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+    <link href="/css/app.css<%= '?ver=' + config.assets.app.css.updated_at %>" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div id="app">
