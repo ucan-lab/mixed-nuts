@@ -1,0 +1,20 @@
+<%- include('/layouts/_config') -%>
+<% config.meta.title = 'holy-grail' %>
+<%- include('/layouts/_header') -%>
+
+<div id="holy-grail">
+    <nav class="left">
+        <h3>左サイドバー</h3>
+    </nav>
+    <article class="center">
+        <h2>聖杯レイアウト</h2>
+        <% for (var i = 0; i < 15; i++) { %>
+            <p>sample <%= i %></p>
+        <% } %>
+    </article>
+    <aside class="right">
+        <h3>右サイドバー</h3>
+    </aside>
+</div>
+
+<%- include('/layouts/_footer') -%>

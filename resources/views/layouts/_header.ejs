@@ -5,20 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/images/favicon.ico">
-    <title>Example</title>
-    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+    <title><%= config.meta.title %></title>
+    <meta name="description" content="<%= config.meta.title %>">
+    <link href="/css/app.css<%= '?ver=' + config.assets.app.css.updated_at %>" rel="stylesheet" type="text/css">
 </head>
 <body>
-
-<div id="app">
-
-<header>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/index.html">Example</a>
-            </div>
-        </div>
-    </nav>
-</header>
-<main>
+    <div id="app">
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/index.html">Home</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>

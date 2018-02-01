@@ -1,0 +1,25 @@
+<%
+
+// ブラウザキャッシュ対策
+var build_date = new Date();
+var build_timestamp = Math.floor(build_date.getTime() / 1000);
+var app_css_updated_at = build_timestamp;
+var app_js_updated_at = build_timestamp;
+
+config = {
+    meta: {
+        title: 'タイトル',
+        desc: 'サイトの説明'
+    },
+    assets: {
+        app: {
+            css: {
+                updated_at: app_css_updated_at
+            },
+            js: {
+                updated_at: app_js_updated_at
+            }
+        }
+    }
+};
+%>
