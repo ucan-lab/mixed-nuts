@@ -17,6 +17,6 @@ mix.setPublicPath('public')
   .sass('resources/assets/sass/app.scss', 'css')
   .purgeCss({
     enabled: true,
-    extensions: ['html', 'js', 'php', 'ejs']
+    extensions: ['html', 'js', 'php', 'vue', 'ejs']
   })
   .copyDirectory('resources/assets/images', 'public/images');
