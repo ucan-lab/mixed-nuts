@@ -1,26 +1,26 @@
-# ミックスナッツ〜静的サイト開発環境〜
+# Mixed-Nuts〜静的サイト開発環境〜
 
-ミックスナッツはSass,EJS,自動リロード等の便利なライブラリを組み合わせた快適なサイト制作環境を提供します。
+Mixed-Nuts(ミックスナッツ)は便利なライブラリを組み合わせた快適かつ高速なWebサイト制作環境を提供します。
 
 ## セールスポイント
 
 - HTMLテンプレートエンジンは [EJS](http://ejs.co) を採用
-  - 素のHTMLもそのまま記述可能
+  - 素のHTMLも記述可能
 - CSSメタ言語は [Sass(Scss記法)](http://sass-lang.com) を採用
-  - 素のCSSもそのまま記述可能
+  - 素のCSSも記述可能
 - [Browsersync](https://browsersync.io) による自動ブラウザリロードによる快適かつ爆速なコーディング環境を提供
 - [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)をベースに [Bootstrap3](https://getbootstrap.com)/[Font Awesome](http://fontawesome.io)/[Vue.js](https://jp.vuejs.org)/[Jquery](https://jquery.com)/[lodash](https://lodash.com) などの便利なライブラリを利用可能
-- [Laravel Mix Purgecss](https://github.com/spatie/laravel-mix-purgecss) により未使用のCSSを除去し、より小さいCSSファイルをリリース
-- [Netlify](https://www.netlify.com) でデプロイをお手軽に
-- バージョニング付けによるブラウザキャッシュ対策
+- [Laravel Mix Purgecss](https://github.com/spatie/laravel-mix-purgecss) により未使用のCSSを除去
+- [Netlify](https://www.netlify.com) で簡単デプロイ
+- ベンダープレフィックス自動付加
+- 開発/本番ビルドで圧縮切り替え
+- バージョニング(ブラウザキャッシュ対策)
 
 ## 要件
 
 - [Git](https://git-scm.com)
 - [Nodejs(npm)](https://nodejs.org/ja)
-- [Netlifyアカウント](https://www.netlify.com)
-  - 無料で使える高機能ホスティングサービス
-  - GitHubアカウントがあれば連携可能
+- [Netlifyアカウント](https://www.netlify.com)(GitHubアカウント)
 
 ## 開発環境構築
 
@@ -49,14 +49,13 @@ $ git commit -m "first commit"
 $ npm run dev
 ```
 
-### ビルド(監視モード)
+### ビルド(アセット監視モード、ブラウザ自動リロード)
 
 ```
 $ npm run watch
 $ npm run gulp
 ```
 
-アセットの自動ビルド、ブラウザの自動リロードモードです。<br>
 それぞれ別窓でコマンドを実行してください。
 
 ### ビルド(最適化)
@@ -65,7 +64,7 @@ $ npm run gulp
 $ npm run prod
 ```
 
-css, javascriptファイルが最適化されます。
+css, javascriptファイルが最適化(圧縮)されます。
 
 ## デプロイ(手動)
 
