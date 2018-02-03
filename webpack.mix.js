@@ -15,6 +15,14 @@ require('laravel-mix-purgecss');
 mix.setPublicPath('public')
   .js('resources/assets/js/app.js', 'js')
   .sass('resources/assets/sass/app.scss', 'css')
+  .options({
+    postCss: [
+      require('autoprefixer')({
+        browsers: ['last 2 versions'],
+        cascade: false
+      })
+    ]
+  })
   .purgeCss({
     enabled: true,
     extensions: ['html', 'js', 'php', 'vue', 'ejs']
