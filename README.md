@@ -1,17 +1,18 @@
-# ミックスナッツ〜ウェブデザイナ向け開発環境〜
+# ミックスナッツ〜静的サイト開発環境〜
 
-ミックスナッツは静的サイトを効率よく制作するための開発環境です。
+ミックスナッツはSass,EJS,自動リロード等の便利なライブラリを組み合わせた快適なサイト制作環境を提供します。
 
-## ポイント
+## セールスポイント
 
 - HTMLテンプレートエンジンは [EJS](http://ejs.co) を採用
   - 素のHTMLもそのまま記述可能
 - CSSメタ言語は [Sass(Scss記法)](http://sass-lang.com) を採用
   - 素のCSSもそのまま記述可能
-- 自動ビルド＆自動ブラウザリロードによる快適かつ爆速なコーディング環境を提供
-- Laravel Mixをベースに Bootstrap3/Font Awesome/Vue.js/Jquery/lodash などの便利なライブラリを利用可能
+- [Browsersync](https://browsersync.io) による自動ブラウザリロードによる快適かつ爆速なコーディング環境を提供
+- [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)をベースに [Bootstrap3](https://getbootstrap.com)/[Font Awesome](http://fontawesome.io)/[Vue.js](https://jp.vuejs.org)/[Jquery](https://jquery.com)/[lodash](https://lodash.com) などの便利なライブラリを利用可能
 - [Laravel Mix Purgecss](https://github.com/spatie/laravel-mix-purgecss) により未使用のCSSを除去し、より小さいCSSファイルをリリース
 - [Netlify](https://www.netlify.com) でデプロイをお手軽に
+- バージョニング付けによるブラウザキャッシュ対策
 
 ## 要件
 
