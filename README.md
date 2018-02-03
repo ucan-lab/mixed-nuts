@@ -1,3 +1,6 @@
+
+![mixed-nuts](https://user-images.githubusercontent.com/35098175/35766776-46a3663c-0921-11e8-9bba-f21116b2eafa.jpg)
+
 # Mixed-Nuts〜Webサイト制作環境〜
 
 Mixed-Nuts(ミックスナッツ)は便利なライブラリを組み合わせた快適かつ高速なWebサイト制作環境を提供します。
