@@ -1,6 +1,6 @@
-# デザイン工房-ウェブデザイナ向け開発環境-
+# ミックスナッツ〜ウェブデザイナ向け開発環境〜
 
-デザイン工房はウェブデザイナがHTMLやCSSを効率よく書くための開発環境です。
+ミックスナッツは静的サイトを効率よく制作するための開発環境です。
 
 ## ポイント
 
@@ -26,7 +26,7 @@
 ### インストール
 
 ```
-$ git clone https://github.com/ucan-lab/design-studio ./example
+$ git clone https://github.com/ucan-lab/mixed-nuts ./example
 $ cd example
 $ npm install
 ```
@@ -83,4 +83,4 @@ $ npm run dep
 
 ## 補足等
 
-[https://github.com/ucan-lab/design-studio/wiki](https://github.com/ucan-lab/design-studio/wiki)
+[https://github.com/ucan-lab/mixed-nuts/wiki](https://github.com/ucan-lab/mixed-nuts/wiki)

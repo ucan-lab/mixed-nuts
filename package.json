@@ -1,7 +1,7 @@
 {
-  "name": "design-studio",
+  "name": "mixed-nuts",
   "version": "1.0.0",
-  "description": "デザイン工房-ウェブデザイナ向け開発環境-",
+  "description": "ミックスナッツ〜ウェブデザイナ向け開発環境〜",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -20,15 +20,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ucan-lab@github.com/ucan-lab/design-studio.git"
+    "url": "git+https://ucan-lab@github.com/ucan-lab/mixed-nuts.git"
   },
   "keywords": [],
   "author": "ucan-lab",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ucan-lab/design-studio/issues"
+    "url": "https://github.com/ucan-lab/mixed-nuts/issues"
   },
-  "homepage": "https://github.com/ucan-lab/design-studio#readme",
+  "homepage": "https://github.com/ucan-lab/mixed-nuts#readme",
   "devDependencies": {
     "axios": "^0.17",
     "bootstrap-sass": "^3.3.7",
