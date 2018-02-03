@@ -1,5 +1,4 @@
-
-![mixed-nuts](https://user-images.githubusercontent.com/35098175/35766776-46a3663c-0921-11e8-9bba-f21116b2eafa.jpg)
+<img src="https://user-images.githubusercontent.com/35098175/35766776-46a3663c-0921-11e8-9bba-f21116b2eafa.jpg" alt="mixed-nuts">
 
 # Mixed-Nuts〜Webサイト制作環境〜
 
