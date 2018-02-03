@@ -82,6 +82,10 @@ $ npm run dep
 基本的に無料で使用できます。また有料になりますがアクセスコントロールでパスワード制限をかけることも可能です。<br>
 詳細なサイト設定は [netlify公式ドキュメント](https://www.netlify.com/docs) を参照ください。
 
+## デプロイ(自動)
+
+[wiki参照](https://github.com/ucan-lab/mixed-nuts/wiki/Netlify-%E8%87%AA%E5%8B%95%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E8%A8%AD%E5%AE%9A)
+
 ## 補足等
 
 [https://github.com/ucan-lab/mixed-nuts/wiki](https://github.com/ucan-lab/mixed-nuts/wiki)
