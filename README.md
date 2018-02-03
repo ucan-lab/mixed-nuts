@@ -29,7 +29,7 @@
 ```
 $ git clone https://github.com/ucan-lab/mixed-nuts ./example
 $ cd example
-$ npm install
+$ npm i
 ```
 
 ### Git初期化
