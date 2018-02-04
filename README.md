@@ -11,9 +11,10 @@ Mixed-Nuts(ミックスナッツ)は便利なライブラリを組み合わせ�
 - CSSメタ言語は [Sass(Scss記法)](http://sass-lang.com) を採用
   - 素のCSSも記述可能
 - [Browsersync](https://browsersync.io) による自動ブラウザリロードによる快適かつ爆速なコーディング環境を提供
-- [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)をベースに [Bootstrap3](https://getbootstrap.com)/[Font Awesome](http://fontawesome.io)/[Vue.js](https://jp.vuejs.org)/[Jquery](https://jquery.com)/[lodash](https://lodash.com) などの便利なライブラリを利用可能
+- [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) をベースに [Bootstrap3](https://getbootstrap.com)/[Font Awesome](http://fontawesome.io)/[Vue.js](https://jp.vuejs.org)/[Jquery](https://jquery.com)/[lodash](https://lodash.com) などの便利なライブラリを利用可能
 - [Laravel Mix Purgecss](https://github.com/spatie/laravel-mix-purgecss) により未使用のCSSを除去
 - [Netlify](https://www.netlify.com) で簡単デプロイ
+- 出力HTMLの自動整形
 - ベンダープレフィックス自動付加
 - 開発/本番ビルドで圧縮切り替え
 - バージョニング(ブラウザキャッシュ対策)
@@ -36,6 +37,12 @@ $ npm i
 ```
 
 ### Git初期化
+
+```
+$ npm run git:init
+```
+
+または
 
 ```
 $ rm -rf .git
