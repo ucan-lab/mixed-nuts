@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "git:init": "rimraf ./.git; git init; git add .; git commit -m 'first commit'",
-    "init": "rimraf ./node_modules",
+    "clean:all": "rimraf ./public; rimraf ./package-lock.json; rimraf ./node_modules",
     "clean": "rimraf ./public",
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js; gulp ejs",
