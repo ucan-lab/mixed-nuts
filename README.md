@@ -4,27 +4,13 @@
 
 Mixed-Nuts(ミックスナッツ)は便利なライブラリを組み合わせた快適かつ高速なWebサイト制作環境を提供します。
 
-## セールスポイント
-
-- HTMLテンプレートエンジンは [EJS](http://ejs.co) を採用
-  - 素のHTMLも記述可能
-- CSSメタ言語は [Sass(Scss記法)](http://sass-lang.com) を採用
-  - 素のCSSも記述可能
-- [Browsersync](https://browsersync.io) による自動ブラウザリロードによる快適かつ爆速なコーディング環境を提供
-- [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) をベースに [Bootstrap3](https://getbootstrap.com)/[Font Awesome](http://fontawesome.io)/[Vue.js](https://jp.vuejs.org)/[Jquery](https://jquery.com)/[lodash](https://lodash.com) などの便利なライブラリを利用可能
-- [Laravel Mix Purgecss](https://github.com/spatie/laravel-mix-purgecss) により未使用のCSSを除去
-- [Netlify](https://www.netlify.com) で簡単デプロイ
-- 出力HTMLの自動整形
-- ベンダープレフィックス自動付加
-- 開発/本番ビルドで圧縮切り替え
-- バージョニング(ブラウザキャッシュ対策)
-- Laravel(システム側)とのやり取りがスムーズ
-
 ## 要件
 
 - [Git](https://git-scm.com)
 - [Nodejs(npm)](https://nodejs.org/ja)
 - [Netlifyアカウント](https://www.netlify.com)(GitHubアカウント)
+
+GitやNodejsのインストールは [wiki](https://github.com/ucan-lab/mixed-nuts/wiki) を参照ください。
 
 ## 開発環境構築
 
@@ -94,6 +80,17 @@ $ npm run dep
 ## デプロイ(自動)
 
 [wiki参照](https://github.com/ucan-lab/mixed-nuts/wiki/Netlify-%E8%87%AA%E5%8B%95%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E8%A8%AD%E5%AE%9A)
+
+## 各種ライブラリ
+
+項目 | 値 | 補足
+--- | --- | --- |
+HTMLテンプレートエンジン | [EJS](http://ejs.co) | 素のHTMLもそのまま記述できます。
+CSSメタ言語 | [Sass(Scss記法)](http://sass-lang.com) | 素のCSSもそのまま記述できます。
+ブラウザ自動リロード | [Browsersync](https://browsersync.io) | 保存と同時にブラウザを再読み込みします。
+Laravel Mix | [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) | [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) をベースに [Bootstrap3](https://getbootstrap.com)/[Font Awesome](http://fontawesome.io)/[Vue.js](https://jp.vuejs.org)/[jQuery](https://jquery.com)/[lodash](https://lodash.com) などの便利なライブラリを利用可能です。
+ホスティングサービス | [Netlify](https://www.netlify.com) | 簡単にHTMLを公開できます。
+その他 | バージョニング(ブラウザキャッシュ対策)、ベンダープレフィックス自動付加、未使用スタイルの除去、本番・開発ビルドの圧縮切替、出力HTML自動整 形 | ---
 
 ## 補足等
 
