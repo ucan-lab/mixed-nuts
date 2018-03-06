@@ -49,10 +49,7 @@ $ npm run dev
 
 ```
 $ npm run watch
-$ npm run gulp
 ```
-
-それぞれ別窓でコマンドを実行してください。
 
 ### ビルド(最適化)
 
