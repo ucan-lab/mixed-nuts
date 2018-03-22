@@ -49,7 +49,7 @@ mix.webpackConfig({
           {
             loader: 'ejs-compiled-loader?htmlmin'
           }
-        ] 
+        ]
       }
     ]
   },
@@ -83,11 +83,6 @@ mix.webpackConfig({
       inject: false,
       filename: 'pages/contact_form/thanks.html',
       template: 'resources/views/pages/contact_form/thanks.ejs'
-    }),
-    new HtmlWebpackPlugin({
-      inject: false,
-      filename: 'pages/holy_grail.html',
-      template: 'resources/views/pages/holy_grail.ejs'
     }),
     new BrowserSyncPlugin({
       host: 'localhost',
