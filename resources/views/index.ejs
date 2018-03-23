@@ -8,6 +8,67 @@
             <h1>Welcome to the Mixed-Nuts!!!</h1>
         </div>
     </div>
+    <div>
+
+<h2>Installation</h2>
+
+<pre>
+$ git clone https://github.com/ucan-lab/mixed-nuts ./example
+$ cd example
+$ npm install
+</pre>
+
+<h2>Git initialize</h2>
+
+<pre>
+$ npm run git:init
+</pre>
+
+<p>or...</p>
+
+<pre>
+$ rm -rf .git
+$ git init
+$ git add .
+$ git commit -m "first commit"
+</pre>
+
+<h2>Build</h2>
+
+<h3>Build Normal</h3>
+
+<pre>
+$ npm run dev
+</pre>
+
+<h3>Build Monitoring and Auto reload</h3>
+
+<pre>
+$ npm run watch
+$ npm run gulp
+</pre>
+
+<h3>Build Production</h3>
+
+<pre>
+$ npm run prod
+</pre>
+
+<h2>Deploy to Netlify</h2>
+
+<pre>
+$ npm run dep
+</pre>
+
+<h3>Deploy the first time</h3>
+<pre>
+$ npm run dep
+
+? No site id specified, create a new site: Yes
+? Path to deploy? (current dir): public
+</pre>
+
+    </div>
 </div>
 
 <%- include resources/views/layouts/_footer.ejs -%>
