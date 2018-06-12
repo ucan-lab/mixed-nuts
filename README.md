@@ -2,7 +2,17 @@
 
 # Mixed-Nuts〜Webサイト制作環境〜
 
-Mixed-Nuts(ミックスナッツ)は便利なライブラリを組み合わせた快適かつ高速なWebサイト制作環境を提供します。
+Mixed-Nuts(ミックスナッツ)は便利なライブラリを組み合わせ、快適かつ高速なWebサイト制作環境を支援します。
+
+- ✅ EJS, Sass, JavaScript自動ビルド対応
+- ✅ 素のHTML, CSS, JavaScriptを書けるので導入コストが低い
+- ✅ ブラウザ自動リロード対応
+- ✅ EJSによるヘッダー、フッターの部品の共通化が可能
+- ✅ ブラウザキャッシュ(バージョニング)対策
+- ✅ ベンダープレフィックスの自動付与
+- ✅ purgeCssによる未使用スタイルの自動除去
+- ✅ 本番ビルドによるファイル圧縮(Minify)対応
+- ✅ 出力HTML自動整形
 
 ## 要件
 
@@ -19,16 +29,10 @@ GitやNodejsのインストールは [wiki](https://github.com/ucan-lab/mixed-nu
 ```
 $ git clone https://github.com/ucan-lab/mixed-nuts ./example
 $ cd example
-$ npm i
+$ npm install
 ```
 
 ### Git初期化
-
-```
-$ npm run git:init
-```
-
-または
 
 ```
 $ rm -rf .git
@@ -60,7 +64,7 @@ $ npm run gulp
 $ npm run prod
 ```
 
-css, javascriptファイルが最適化(圧縮)されます。
+css, javascriptファイルが最適化(Minify)されます。
 
 ## デプロイ(手動)
 
@@ -90,7 +94,7 @@ CSSメタ言語 | [Sass(Scss記法)](http://sass-lang.com) | 素のCSSもその�
 ブラウザ自動リロード | [Browsersync](https://browsersync.io) | 保存と同時にブラウザを再読み込みします。
 Laravel Mix | [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) | [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) をベースに [Bootstrap3](https://getbootstrap.com)/[Font Awesome](http://fontawesome.io)/[Vue.js](https://jp.vuejs.org)/[jQuery](https://jquery.com)/[lodash](https://lodash.com) などの便利なライブラリを利用可能です。
 ホスティングサービス | [Netlify](https://www.netlify.com) | 簡単にHTMLを公開できます。
-その他 | バージョニング(ブラウザキャッシュ対策)、ベンダープレフィックス自動付加、未使用スタイルの除去、本番・開発ビルドの圧縮切替、出力HTML自動整 形 | ---
+その他 | バージョニング(ブラウザキャッシュ対策)、ベンダープレフィックス自動付加、未使用スタイルの除去、本番・開発ビルドの圧縮切替、出力HTML自動整形 | ---
 
 ## 補足等
 
