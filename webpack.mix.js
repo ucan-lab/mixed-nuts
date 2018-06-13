@@ -15,6 +15,7 @@ require('laravel-mix-purgecss');
 mix.setPublicPath('public')
   .js('resources/assets/js/app.js', 'js')
   .sass('resources/assets/sass/app.scss', 'css')
+  .sourceMaps()
   .options({
     postCss: [
       require('autoprefixer')({
