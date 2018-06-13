@@ -13,6 +13,10 @@ Mixed-Nuts(ミックスナッツ)は便利なライブラリを組み合わせ�
 - ✅ purgeCssによる未使用スタイルの自動除去
 - ✅ 本番ビルドによるファイル圧縮(Minify)対応
 - ✅ 出力HTML自動整形
+- ✅ Netlifyにデプロイ対応
+
+昨今の複雑なフロントエンドの開発環境やデプロイ環境を数コマンドで構築できるようにしました。
+環境作りが苦手だったり面倒だと感じている方にぜひ使っていただきたいです。
 
 ## 要件
 
@@ -35,10 +39,9 @@ $ npm install
 ### Git初期化
 
 ```
-$ rm -rf .git
-$ git init
-$ git add .
-$ git commit -m "first commit"
+$ rm -rf .git && git init && git add . && git commit -m "first commit"
+$ git remote add origin 追加したいリポジトリ
+$ git push -u origin master
 ```
 
 ## ビルド
